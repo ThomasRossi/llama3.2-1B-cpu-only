@@ -19,10 +19,10 @@ model.py
 - line 154-172 -> use the cpu device
 
 generator.py
--line 103 -> "gloo" engine
--don't use device.cuda anywhere
--line 153 -> use FloatTensor not cuda.HalfTensor
--line 224-248 -> force device="cpu" not "cuda"
+- line 103 -> "gloo" engine
+- don't use device.cuda anywhere
+- line 153 -> use FloatTensor not cuda.HalfTensor
+- line 224-248 -> force device="cpu" not "cuda"
 
 ## Running
 
